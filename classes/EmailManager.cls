@@ -8,6 +8,10 @@ public class EmailManager {
 	    
 	    // Added new email_msg2 variable 
 	Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
+	    
+	    //Add more email mgr template
+	    
+	Messaging.SingleEmailMessage email_msg3 = new  Messaging.SingleEmailMessage();   
         String [] toAddresses = new String[] {address};
             email_msg1.setToAddresses(toAddresses);
            email_msg1.setSubject(subject);
