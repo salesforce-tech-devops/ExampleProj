@@ -14,7 +14,10 @@ public class EmailManager {
 	    //Add more email mgr template
 	    
 	Messaging.SingleEmailMessage email_msg3 = new  Messaging.SingleEmailMessage();   
-
+	    
+	    //Add more email mgr template 4
+	Messaging.SingleEmailMessage email_msg4 = new  Messaging.SingleEmailMessage(); 
+	    
         String [] toAddresses = new String[] {address};
             email_msg1.setToAddresses(toAddresses);
            email_msg1.setSubject(subject);
