@@ -9,6 +9,8 @@ public class EmailManager {
 	    
 	    // Added new email_msg2 variable 
 	      Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
+	    //Adding new code line from dev1 
+	    Messaging.SingleEmailMessage email_msg333 = new  Messaging.SingleEmailMessage();
 
         String [] toAddresses = new String[] {address};
             email_msg1.setToAddresses(toAddresses);
