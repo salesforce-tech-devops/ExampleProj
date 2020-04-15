@@ -8,10 +8,20 @@ public class EmailManager {
         Messaging.SingleEmailMessage email_msg1 = new  Messaging.SingleEmailMessage();
 	    
 	    // Added new email_msg2 variable 
+
 	      Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
 	    //Adding new code line from dev1 
 	    Messaging.SingleEmailMessage email_msg333 = new  Messaging.SingleEmailMessage();
 
+	Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
+	    
+	    //Add more email mgr template
+	    
+	Messaging.SingleEmailMessage email_msg3 = new  Messaging.SingleEmailMessage();   
+	    
+	    //Add more email mgr template 4
+	Messaging.SingleEmailMessage email_msg4 = new  Messaging.SingleEmailMessage(); 
+	    
         String [] toAddresses = new String[] {address};
             email_msg1.setToAddresses(toAddresses);
            email_msg1.setSubject(subject);
