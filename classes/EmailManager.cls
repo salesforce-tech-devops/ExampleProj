@@ -12,8 +12,6 @@ public class EmailManager {
 	      Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
 	    //Adding new code line from dev1 
 	    Messaging.SingleEmailMessage email_msg333 = new  Messaging.SingleEmailMessage();
-
-	Messaging.SingleEmailMessage email_msg2 = new  Messaging.SingleEmailMessage();  
 	    
 	    //Add more email mgr template
 	    
