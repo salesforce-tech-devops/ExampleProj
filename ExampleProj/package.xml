@@ -6,7 +6,7 @@
     </types>
     <types>
         <members>Tester1</members>
-        <members>scrum_master</members>
+        <members>reviewer1</members>
         <name>Role</name>
     </types>
     <version>38.0</version>
