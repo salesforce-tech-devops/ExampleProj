@@ -5,9 +5,9 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Case</members>
-        <members>Lead</members>
-        <name>AutoResponseRules</name>
+        <members>Tester1</members>
+        <members>reviewer1</members>
+        <name>Role</name>
     </types>
     <version>38.0</version>
 </Package>
