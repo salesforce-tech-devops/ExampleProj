@@ -4,10 +4,5 @@
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
-    <types>
-        <members>Case</members>
-        <members>Lead</members>
-        <name>AssignmentRules</name>
-    </types>
     <version>38.0</version>
 </Package>
