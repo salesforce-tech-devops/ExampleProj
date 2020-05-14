@@ -1,7 +1,7 @@
 public class EmailManager {
 
     public static void sendEmailer(String address, String subject, String body ){
-	   
+//TEST COMMENT	   
 
 	    //Collaborator mosin359-changed mail variable from mail1 to email_msg for clarity
         //Collaborator mosin359-Corrected code errors
