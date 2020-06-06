@@ -1,5 +1,5 @@
 <project name="Code Backup Without Folders" default="retrieve" basedir="." xmlns:sf="antlib:com.salesforce">
-	<property file="build.properties"/>
+	<property file="mybuild.properties"/>
 	<property environment="env"/>
   <target name="Deploy">
 	<sf:deploy
@@ -23,7 +23,7 @@
 		</git>
 		<git command="commit" dir="${Sandbox1.gitDirectory}">
 			<args>
-				<arg value="-am ${gt.commitMessage}" />
+				<arg value="-am ${git.commitMessage}" />
 			</args>
 		</git>
 		
