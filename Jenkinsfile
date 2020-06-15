@@ -11,7 +11,7 @@ stages
 		{
 
 			 steps{
-			 build job: 'demo jenkins'
+			 build job: 'sf_stg_depoy'
 			 }
 		}  
 
