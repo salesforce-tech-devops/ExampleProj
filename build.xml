@@ -27,12 +27,13 @@
 			</args>
 		</git>
 		
+		<!--
 		<git command="push" dir="${Sandbox1.gitDirectory}">
 			<args>
 				<arg value="-u origin master" />
 			</args>
 	    </git>
-	<!-- added cmd for push  	
+	 added cmd for push  	
 		<git command="push" dir="${Sandbox1.gitDirectory}">
 			<args>
 				<arg value=" orgin master" />
@@ -40,6 +41,15 @@
 	    </git>
 	-->
 	</target>
+	<!--
+	<target name="undeployCode">
+		<sf:deploy username="${Sandbox1.username}"
+				   password="${Sandbox1.password}"
+				   serverurl="${sfSandbox.serverurl}"
+				   deployRoot="${Sandbox1.retrieveTarget}"
+			runAllTests="true" />
+	</target>
+	-->
 	<macrodef name="git">
 		<attribute name="command" />
 		<attribute name="dir" />
