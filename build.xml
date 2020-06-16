@@ -9,6 +9,16 @@
 			deployRoot="${Sandbox2.retrieveTarget}"
 			runAllTests="true" />
   </target>
+
+  <target name="DeployToProd">
+	<sf:deploy
+			username="${Sandbox3.username}"
+			password="${Sandbox3.password}"
+			serverurl="${sfSandbox.serverurl}"
+			deployRoot="${Sandbox3.retrieveTarget}"
+			runAllTests="true" />
+  </target>
+
   <target name="retrieve">
 	  <sf:retrieve username="${Sandbox1.username}"
 				   password="${Sandbox1.password}"

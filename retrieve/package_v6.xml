@@ -13,10 +13,6 @@
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
         <members>fdepoyer1</members>
         <members>scrum_master_2</members>
 		<members>scrum_master_3</members>

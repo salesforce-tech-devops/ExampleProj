@@ -21,6 +21,7 @@
         <members>scrum_master_2</members>
         <members>scrum_master_3</members>
         <members>writer2</members>
+        <members>writer3</members>
         <name>Role</name>
     </types>
     <version>48.0</version>
