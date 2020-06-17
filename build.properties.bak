@@ -15,20 +15,20 @@ Sandbox1.password = Salesforce@359t2iXQnQRc46xNa2AgtgkpAlG
 ##commenting to correct github local directory
 
 Sandbox1.gitDirectory = ../jenkins
-Sandbox1.unpackaged = retrieve/package_v7.xml
+Sandbox1.unpackaged = retrieve/package_v6.xml
 Sandbox1.retrieveTarget = mypkg6
 
-gt.commitMessage = new package7 changes-added new roles
+gt.commitMessage = Sched GIT sync-added writer3 role
 
 #target sf box 2
 Sandbox2.username = khanmujeeb_ahmed@yahoo.co.in
 Sandbox2.password = Salesforce@359dQJNY4Rb1NCPt1H14sQJRhfV
-Sandbox2.retrieveTarget = mypkg7
+Sandbox2.retrieveTarget = mypkg6
 
 #Prod target
 Sandbox3.username = spaiker@sf.com
 Sandbox3.password = Salesforce@359RrO3WDyNkCCtzsgWke4T4ipZn
-Sandbox3.retrieveTarget = ../opensource/jenkins/mypkg7
+Sandbox3.retrieveTarget = ../opensource/jenkins/mypkg6
 
 
 
