@@ -20,6 +20,7 @@
   </target>
 
   <target name="retrieve">
+      <mkdir dir="${Sandbox1.retrieveTarget}"/>
 	  <sf:retrieve username="${Sandbox1.username}"
 				   password="${Sandbox1.password}"
 				   serverurl="${sfSandbox.serverurl}"
