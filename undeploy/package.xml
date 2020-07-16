@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>fdepoyer1</members>
-        <members>scrum_master_2</members>
-        <members>writer2</members>
+        <members>demo1</members>
         <name>Role</name>
     </types>
     <version>48.0</version>
