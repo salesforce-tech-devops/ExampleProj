@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>demo1</members>
+        <members>demoer1</members>
+        <members>demoer2</members>
         <name>Role</name>
     </types>
     <version>48.0</version>
